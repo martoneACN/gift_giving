@@ -2,6 +2,56 @@
 <database>
     <element label="Gift Giving Table" max_length="40" name="x_81943_gift_givin_gift_giving_table" type="collection">
         <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element choice="3" default="0" label="Approval" max_length="40" name="approval" type="choice">
+            <choice>
+                <element label="Approved" value="2"/>
+                <element label="Cancelled" value="10"/>
+                <element label="Not Requested" value="0"/>
+                <element label="Rejected" value="9"/>
+                <element label="Requested" value="1"/>
+            </choice>
+        </element>
+        <element label="Gift Purpose" max_length="40" name="gift_purpose" type="string"/>
+        <element label="Gift Type" max_length="40" name="gift_type" type="string"/>
+        <element label="Gift Value in Local Currency" max_length="40" name="gift_value" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Recipient Company" max_length="40" name="rec_company" type="string"/>
+        <element label="Recipient Country" max_length="40" name="rec_country" type="string"/>
+        <element label="Recipient Name" max_length="40" name="rec_name" type="string"/>
+        <element label="Recipient Title" max_length="40" name="rec_title" type="string"/>
+        <element label="Requested For" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
+        <element choice="3" default="1" label="Requested For's Region" max_length="40" name="requested_for_region" type="choice">
+            <choice>
+                <element label="China" value="2"/>
+                <element label="Europe" value="3"/>
+                <element label="Hong Kong" value="4"/>
+                <element label="Japan" value="5"/>
+                <element label="Korea" value="6"/>
+                <element label="Macau" value="7"/>
+                <element label="Malaysia" value="8"/>
+                <element label="Other" value="99"/>
+                <element label="Singapore" value="9"/>
+                <element label="Taiwan" value="10"/>
+                <element label="USA" value="1"/>
+            </choice>
+        </element>
+        <element default="javascript:global.getUserID();" label="Requestor" max_length="32" name="requestor" reference="sys_user" type="reference"/>
+        <element label="Requested For's Country" max_length="40" name="req_country" type="string"/>
+        <element label="Requested For's Email" max_length="40" name="req_email" type="string"/>
+        <element label="Requested For's Phone" max_length="40" name="req_phone" type="string"/>
+        <element choice="3" default="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element label="Closed Complete" value="9"/>
+                <element label="Closed Incomplete" value="10"/>
+                <element label="New" value="1"/>
+                <element label="Open" value="2"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="requested_for"/>
+        </index>
+        <index name="index2">
+            <element name="requestor"/>
+        </index>
     </element>
 </database>

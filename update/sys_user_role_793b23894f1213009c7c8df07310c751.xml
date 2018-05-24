@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>Gift Giving Approvers</description>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_81943_gift_givin.approver</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>approver</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-24 14:28:15</sys_created_on>
+        <sys_id>793b23894f1213009c7c8df07310c751</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_81943_gift_givin.approver</sys_name>
+        <sys_package display_value="Gift Giving" source="x_81943_gift_givin">4cd8aa304f1213009c7c8df07310c751</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gift Giving">4cd8aa304f1213009c7c8df07310c751</sys_scope>
+        <sys_update_name>sys_user_role_793b23894f1213009c7c8df07310c751</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-24 14:28:15</sys_updated_on>
+    </sys_user_role>
+</record_update>
