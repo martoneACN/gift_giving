@@ -11,16 +11,17 @@
                 <element label="Requested" value="1"/>
             </choice>
         </element>
+        <element label="Approval Group" max_length="32" name="approval_group" read_only="true" reference="sys_user_group" reference_qual="active=true^roles=x_81943_gift_givin.approver^EQ" reference_qual_condition="active=true^roles=x_81943_gift_givin.approver^EQ" type="reference"/>
         <element label="Gift Purpose" max_length="40" name="gift_purpose" type="string"/>
         <element label="Gift Type" max_length="40" name="gift_type" type="string"/>
-        <element label="Gift Value in Local Currency" max_length="40" name="gift_value" type="string"/>
+        <element label="Gift Value in Local Currency" mandatory="true" max_length="40" name="gift_value" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Recipient Company" max_length="40" name="rec_company" type="string"/>
+        <element label="Recipient Company" mandatory="true" max_length="40" name="rec_company" type="string"/>
         <element label="Recipient Country" max_length="40" name="rec_country" type="string"/>
-        <element label="Recipient Name" max_length="40" name="rec_name" type="string"/>
+        <element label="Recipient Name" mandatory="true" max_length="40" name="rec_name" type="string"/>
         <element label="Recipient Title" max_length="40" name="rec_title" type="string"/>
         <element label="Requested For" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
-        <element choice="3" default="1" label="Requested For's Region" max_length="40" name="requested_for_region" type="choice">
+        <element choice="3" default="1" label="Requested For's Region" mandatory="true" max_length="40" name="requested_for_region" type="choice">
             <choice>
                 <element label="China" value="2"/>
                 <element label="Europe" value="3"/>
@@ -35,9 +36,9 @@
                 <element label="USA" value="1"/>
             </choice>
         </element>
-        <element default="javascript:global.getUserID();" label="Requestor" max_length="32" name="requestor" reference="sys_user" type="reference"/>
+        <element default="javascript:global.getUserID();" label="Requestor" max_length="32" name="requestor" read_only="true" reference="sys_user" type="reference"/>
         <element label="Requested For's Country" max_length="40" name="req_country" type="string"/>
-        <element label="Requested For's Email" max_length="40" name="req_email" type="string"/>
+        <element label="Requested For's Email" max_length="40" name="req_email" read_only="true" type="string"/>
         <element label="Requested For's Phone" max_length="40" name="req_phone" type="string"/>
         <element choice="3" default="1" label="State" max_length="40" name="state" type="choice">
             <choice>
@@ -51,6 +52,9 @@
             <element name="requested_for"/>
         </index>
         <index name="index2">
+            <element name="approval_group"/>
+        </index>
+        <index name="index3">
             <element name="requestor"/>
         </index>
     </element>
