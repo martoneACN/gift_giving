@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Populate all of the Requested For user fields from sys_user when 'requested_for' changes.</description>
+        <field>active</field>
+        <global>true</global>
+        <messages/>
+        <name>Populate REQ For Fields</name>
+        <order/>
+        <script><![CDATA[function onCellEdit(sysIDs, table, oldValues, newValue, callback) {
+  var saveAndClose = true;
+
+	 var id = g_form.getValue('requested_for');
+     var user = new GlideRecord('sys_user');
+           user.addQuery('sys_id',id);
+           user.query();
+
+	if ( user.next() ) {
+	 g_form.addInfoMessage('Gift Giving user= ' + user.name);
+     g_form.setValue('req_email', user.email);
+     g_form.setValue('req_phone', user.phone);
+     g_form.setValue('req_country', user.u_country);
+	 g_form.setValue('req_manager', user.manager);
+   }
+ 
+ callback(saveAndClose); 
+}
+
+  ]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-31 13:18:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bc2d13974f1a13009c7c8df07310c738</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Populate REQ For Fields</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gift Giving" source="x_81943_gift_givin">4cd8aa304f1213009c7c8df07310c751</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gift Giving">4cd8aa304f1213009c7c8df07310c751</sys_scope>
+        <sys_update_name>sys_script_client_bc2d13974f1a13009c7c8df07310c738</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-31 14:38:50</sys_updated_on>
+        <table>x_81943_gift_givin_gift_giving_table</table>
+        <type>onCellEdit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
