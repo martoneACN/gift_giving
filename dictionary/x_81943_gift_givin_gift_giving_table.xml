@@ -20,7 +20,7 @@
         <element label="Recipient Country" max_length="40" name="rec_country" type="string"/>
         <element label="Recipient Name" mandatory="true" max_length="40" name="rec_name" type="string"/>
         <element label="Recipient Title" max_length="40" name="rec_title" type="string"/>
-        <element default="javascript:global.getUserID();" label="Requested For" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Requested For" max_length="32" name="requested_for" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <element choice="3" default="1" label="Requested For's Region" mandatory="true" max_length="40" name="requested_for_region" type="choice">
             <choice>
                 <element label="China" value="2"/>

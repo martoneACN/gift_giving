@@ -14,6 +14,7 @@
         <description/>
         <entitlement_script/>
         <group/>
+        <hide_sp>false</hide_sp>
         <icon/>
         <ignore_price>true</ignore_price>
         <image/>
@@ -35,10 +36,11 @@
         <order>0</order>
         <ordered_item_link/>
         <picture/>
-        <preview>JavaScript: popupOpenStandard("./com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=03ffa34d4f1213009c7c8df07310c7d0&amp;sysparm_preview=true", "summary");</preview>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=03ffa34d4f1213009c7c8df07310c7d0&amp;sysparm_preview=true", "summary");</preview>
         <price>0</price>
         <recurring_frequency/>
         <recurring_price>0</recurring_price>
+        <redirect_url/>
         <roles/>
         <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
         <sc_ic_item_staging/>
@@ -50,13 +52,11 @@
         <sys_class_name>sc_cat_item_producer</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-24 14:48:43</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>03ffa34d4f1213009c7c8df07310c7d0</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Gift Giving</sys_name>
         <sys_package display_value="Gift Giving" source="x_81943_gift_givin">4cd8aa304f1213009c7c8df07310c751</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Gift Giving">4cd8aa304f1213009c7c8df07310c751</sys_scope>
         <sys_update_name>sc_cat_item_producer_03ffa34d4f1213009c7c8df07310c7d0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
@@ -64,9 +64,6 @@
         <table_name>x_81943_gift_givin_gift_giving_table</table_name>
         <template/>
         <type>item</type>
-        <u_app_business_approval_attach/>
-        <u_configuration_item/>
-        <u_extension/>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
         <view/>

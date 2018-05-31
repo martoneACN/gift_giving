@@ -6,12 +6,12 @@
         <array_denormalized>false</array_denormalized>
         <attributes/>
         <audit>false</audit>
-        <calculation>(function calculatedFieldValue(current) {
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
 
 	// Add your code here
 	return '';  // return the calculated value
 
-})(current);</calculation>
+})(current);]]></calculation>
         <choice/>
         <choice_field/>
         <choice_table/>
@@ -31,6 +31,8 @@
         <element>req_country</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
@@ -52,17 +54,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-24 14:06:50</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
-        <sys_id>b45d706fdbd657002e4204c2ca9619cc</sys_id>
+        <sys_id>2b3089674f1e13009c7c8df07310c76d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Requested For's Country</sys_name>
         <sys_package display_value="Gift Giving" source="x_81943_gift_givin">4cd8aa304f1213009c7c8df07310c751</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Gift Giving">4cd8aa304f1213009c7c8df07310c751</sys_scope>
         <sys_update_name>sys_dictionary_x_81943_gift_givin_gift_giving_table_req_country</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-05-31 20:13:03</sys_updated_on>
+        <sys_updated_on>2018-05-31 20:25:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
