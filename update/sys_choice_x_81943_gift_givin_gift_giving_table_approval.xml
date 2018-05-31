@@ -13,7 +13,6 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-05-24 14:10:25</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>63d6ebc54f1213009c7c8df07310c7b9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
@@ -32,7 +31,6 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-05-24 14:11:05</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>5d57a7c54f1213009c7c8df07310c7a0</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
@@ -51,7 +49,6 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-05-24 14:11:40</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>2077a7c54f1213009c7c8df07310c7a2</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
@@ -70,7 +67,6 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-05-24 14:11:15</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>c067e3c54f1213009c7c8df07310c720</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
@@ -89,7 +85,6 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-05-24 14:11:24</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>aa67a7c54f1213009c7c8df07310c717</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
@@ -102,11 +97,13 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-05-24 14:10:25</sys_created_on>
-            <sys_id>81d5b35b4f5a13009c7c8df07310c794</sys_id>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>ab5df06fdbd657002e4204c2ca96198c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>approval</sys_name>
             <sys_package display_value="Gift Giving" source="x_81943_gift_givin">4cd8aa304f1213009c7c8df07310c751</sys_package>
             <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Gift Giving">4cd8aa304f1213009c7c8df07310c751</sys_scope>
             <sys_update_name>sys_choice_x_81943_gift_givin_gift_giving_table_approval</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>

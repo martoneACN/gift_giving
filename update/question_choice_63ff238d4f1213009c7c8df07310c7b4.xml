@@ -3,21 +3,24 @@
     <question_choice action="INSERT_OR_UPDATE">
         <misc>0</misc>
         <order>2</order>
-        <question display_value="Requested For's Region">67ff238d4f1213009c7c8df07310c79b</question>
+        <question display_value="requested_for_region">67ff238d4f1213009c7c8df07310c79b</question>
         <rec_misc>0</rec_misc>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-24 14:48:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>63ff238d4f1213009c7c8df07310c7b4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Hong Kong</sys_name>
         <sys_package display_value="Gift Giving" source="x_81943_gift_givin">4cd8aa304f1213009c7c8df07310c751</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Gift Giving">4cd8aa304f1213009c7c8df07310c751</sys_scope>
         <sys_update_name>question_choice_63ff238d4f1213009c7c8df07310c7b4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-05-24 14:48:45</sys_updated_on>
         <text>Hong Kong</text>
+        <u_inactive>false</u_inactive>
         <value>4</value>
     </question_choice>
     <fx_price action="delete_multiple" query="id=63ff238d4f1213009c7c8df07310c7b4"/>

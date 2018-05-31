@@ -23,14 +23,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-23 14:59:16</sys_created_on>
         <sys_id>4cd8aa304f1213009c7c8df07310c751</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-23 14:59:16</sys_updated_on>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>mmartone-Admin</sys_updated_by>
+        <sys_updated_on>2018-05-31 20:13:59</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role display_value="x_81943_gift_givin.user" name="x_81943_gift_givin.user">84d862704f1213009c7c8df07310c7ea</user_role>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
     </sys_app>
 </record_update>
