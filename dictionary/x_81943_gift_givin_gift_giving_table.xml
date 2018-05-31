@@ -23,17 +23,17 @@
         <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Requested For" max_length="32" name="requested_for" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <element choice="3" default="1" label="Requested For's Region" mandatory="true" max_length="40" name="requested_for_region" type="choice">
             <choice>
-                <element label="China" value="2"/>
-                <element label="Europe" value="3"/>
-                <element label="Hong Kong" value="4"/>
-                <element label="Japan" value="5"/>
-                <element label="Korea" value="6"/>
-                <element label="Macau" value="7"/>
-                <element label="Malaysia" value="8"/>
-                <element label="Other" value="99"/>
-                <element label="Singapore" value="9"/>
-                <element label="Taiwan" value="10"/>
-                <element label="USA" value="1"/>
+                <element label="China" value="China"/>
+                <element label="Europe" value="Europe"/>
+                <element label="Hong Kong" value="Hong Kong"/>
+                <element label="Japan" value="Japan"/>
+                <element label="Korea" value="Korea"/>
+                <element label="Macau" value="Macau"/>
+                <element label="Malaysia" value="Malaysia"/>
+                <element label="Other" value="Other"/>
+                <element label="Singapore" value="Singapore"/>
+                <element label="Taiwan" value="Taiwan"/>
+                <element label="USA" value="USA"/>
             </choice>
         </element>
         <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Requestor" max_length="32" name="requestor" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
