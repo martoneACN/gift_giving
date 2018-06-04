@@ -4,11 +4,13 @@
         <sys_class_name>sys_security_acl_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-23 14:59:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>d0d8e2704f1213009c7c8df07310c703</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_81943_gift_givin_gift_giving_table.x_81943_gift_givin.user</sys_name>
         <sys_package display_value="Gift Giving" source="x_81943_gift_givin">4cd8aa304f1213009c7c8df07310c751</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Gift Giving">4cd8aa304f1213009c7c8df07310c751</sys_scope>
         <sys_security_acl display_value="x_81943_gift_givin_gift_giving_table">18d8e2704f1213009c7c8df07310c700</sys_security_acl>
         <sys_update_name>sys_security_acl_role_d0d8e2704f1213009c7c8df07310c703</sys_update_name>

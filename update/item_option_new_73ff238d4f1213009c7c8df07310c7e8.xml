@@ -18,7 +18,6 @@
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <example_text/>
         <field>rec_title</field>
         <global>false</global>
         <help_tag>More information</help_tag>
@@ -59,11 +58,13 @@
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-24 14:48:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>73ff238d4f1213009c7c8df07310c7e8</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Recipient Title</sys_name>
         <sys_package display_value="Gift Giving" source="x_81943_gift_givin">4cd8aa304f1213009c7c8df07310c751</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Gift Giving">4cd8aa304f1213009c7c8df07310c751</sys_scope>
         <sys_update_name>item_option_new_73ff238d4f1213009c7c8df07310c7e8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
@@ -71,6 +72,8 @@
         <table/>
         <tooltip/>
         <type>6</type>
+        <u_do_not_clone>false</u_do_not_clone>
+        <u_for_task_fulfillment>false</u_for_task_fulfillment>
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
@@ -85,39 +88,4 @@
         <write_roles/>
     </item_option_new>
     <sys_translated_text action="delete_multiple" query="documentkey=73ff238d4f1213009c7c8df07310c7e8"/>
-    <fx_price action="delete_multiple" query="id=73ff238d4f1213009c7c8df07310c7e8"/>
-    <fx_price action="INSERT_OR_UPDATE">
-        <amount>0</amount>
-        <currency display_value="USD">USD</currency>
-        <field>price_if_checked</field>
-        <id>73ff238d4f1213009c7c8df07310c7e8</id>
-        <parent/>
-        <reference_amount>0</reference_amount>
-        <reference_currency display_value="USD">USD</reference_currency>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-05-31 20:28:01</sys_created_on>
-        <sys_id>a9c041e74f1e13009c7c8df07310c7a8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-31 20:28:01</sys_updated_on>
-        <table>item_option_new</table>
-        <type>calculated</type>
-    </fx_price>
-    <fx_price action="INSERT_OR_UPDATE">
-        <amount>0</amount>
-        <currency display_value="USD">USD</currency>
-        <field>rec_price_if_checked</field>
-        <id>73ff238d4f1213009c7c8df07310c7e8</id>
-        <parent/>
-        <reference_amount>0</reference_amount>
-        <reference_currency display_value="USD">USD</reference_currency>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-05-31 20:28:01</sys_created_on>
-        <sys_id>65c041e74f1e13009c7c8df07310c7a9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-31 20:28:01</sys_updated_on>
-        <table>item_option_new</table>
-        <type>calculated</type>
-    </fx_price>
 </record_update>

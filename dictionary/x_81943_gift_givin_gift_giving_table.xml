@@ -30,7 +30,7 @@
                 <element label="Korea" value="Korea"/>
                 <element label="Macau" value="Macau"/>
                 <element label="Malaysia" value="Malaysia"/>
-                <element label="Other" value="99"/>
+                <element label="Other" value="Other"/>
                 <element label="Singapore" value="Singapore"/>
                 <element label="Taiwan" value="Taiwan"/>
                 <element label="USA" value="USA"/>

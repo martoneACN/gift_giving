@@ -6,37 +6,17 @@
             <element>requested_for_region</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Other</label>
-            <language>en</language>
-            <name>x_81943_gift_givin_gift_giving_table</name>
-            <sequence/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-24 14:19:02</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>a229e3494f1213009c7c8df07310c7c8</sys_id>
-            <sys_mod_count>3</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-04 18:21:30</sys_updated_on>
-            <value>99</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>requested_for_region</element>
-            <hint/>
-            <inactive>false</inactive>
             <label>China</label>
             <language>en</language>
             <name>x_81943_gift_givin_gift_giving_table</name>
             <sequence/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-24 14:17:03</sys_created_on>
+            <sys_created_by>mmartone-Admin</sys_created_by>
+            <sys_created_on>2018-06-04 18:47:18</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>dda8ab094f1213009c7c8df07310c7df</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-31 20:39:33</sys_updated_on>
+            <sys_id>16ff8dbcdbeed700461c6e25ca9619b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mmartone-Admin</sys_updated_by>
+            <sys_updated_on>2018-06-04 18:47:18</sys_updated_on>
             <value>China</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -48,14 +28,13 @@
             <language>en</language>
             <name>x_81943_gift_givin_gift_giving_table</name>
             <sequence/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-24 14:17:16</sys_created_on>
+            <sys_created_by>mmartone-Admin</sys_created_by>
+            <sys_created_on>2018-06-04 18:47:30</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>6fb8ef094f1213009c7c8df07310c741</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-31 20:39:40</sys_updated_on>
+            <sys_id>9e1095fcdbeed700461c6e25ca96195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mmartone-Admin</sys_updated_by>
+            <sys_updated_on>2018-06-04 18:47:30</sys_updated_on>
             <value>Europe</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -67,14 +46,13 @@
             <language>en</language>
             <name>x_81943_gift_givin_gift_giving_table</name>
             <sequence/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-24 14:17:35</sys_created_on>
+            <sys_created_by>mmartone-Admin</sys_created_by>
+            <sys_created_on>2018-06-04 18:47:44</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>2ec86b094f1213009c7c8df07310c776</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-31 20:39:46</sys_updated_on>
+            <sys_id>b52015fcdbeed700461c6e25ca9619d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mmartone-Admin</sys_updated_by>
+            <sys_updated_on>2018-06-04 18:47:44</sys_updated_on>
             <value>Hong Kong</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -86,14 +64,13 @@
             <language>en</language>
             <name>x_81943_gift_givin_gift_giving_table</name>
             <sequence/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-24 14:17:48</sys_created_on>
+            <sys_created_by>mmartone-Admin</sys_created_by>
+            <sys_created_on>2018-06-04 18:47:54</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>53d82b094f1213009c7c8df07310c7e8</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-31 20:39:51</sys_updated_on>
+            <sys_id>e43095fcdbeed700461c6e25ca9619ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mmartone-Admin</sys_updated_by>
+            <sys_updated_on>2018-06-04 18:47:54</sys_updated_on>
             <value>Japan</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -105,14 +82,13 @@
             <language>en</language>
             <name>x_81943_gift_givin_gift_giving_table</name>
             <sequence/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-24 14:17:55</sys_created_on>
+            <sys_created_by>mmartone-Admin</sys_created_by>
+            <sys_created_on>2018-06-04 18:48:16</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>5ae82f094f1213009c7c8df07310c7a4</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-31 20:39:56</sys_updated_on>
+            <sys_id>4e40d1fcdbeed700461c6e25ca9619b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mmartone-Admin</sys_updated_by>
+            <sys_updated_on>2018-06-04 18:48:16</sys_updated_on>
             <value>Korea</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -124,14 +100,13 @@
             <language>en</language>
             <name>x_81943_gift_givin_gift_giving_table</name>
             <sequence/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-24 14:18:14</sys_created_on>
+            <sys_created_by>mmartone-Admin</sys_created_by>
+            <sys_created_on>2018-06-04 18:48:27</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>80f8ef094f1213009c7c8df07310c743</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-31 20:40:01</sys_updated_on>
+            <sys_id>a850d5fcdbeed700461c6e25ca961979</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mmartone-Admin</sys_updated_by>
+            <sys_updated_on>2018-06-04 18:48:27</sys_updated_on>
             <value>Macau</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -143,15 +118,32 @@
             <language>en</language>
             <name>x_81943_gift_givin_gift_giving_table</name>
             <sequence/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-24 14:18:24</sys_created_on>
+            <sys_created_by>mmartone-Admin</sys_created_by>
+            <sys_created_on>2018-06-04 18:48:42</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>700923494f1213009c7c8df07310c78f</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-31 20:40:06</sys_updated_on>
+            <sys_id>8860d5fcdbeed700461c6e25ca96197c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mmartone-Admin</sys_updated_by>
+            <sys_updated_on>2018-06-04 18:48:42</sys_updated_on>
             <value>Malaysia</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>requested_for_region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_81943_gift_givin_gift_giving_table</name>
+            <sequence/>
+            <sys_created_by>mmartone-Admin</sys_created_by>
+            <sys_created_on>2018-06-04 18:49:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>2c9099fcdbeed700461c6e25ca9619d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mmartone-Admin</sys_updated_by>
+            <sys_updated_on>2018-06-04 18:49:31</sys_updated_on>
+            <value>Other</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -162,14 +154,13 @@
             <language>en</language>
             <name>x_81943_gift_givin_gift_giving_table</name>
             <sequence/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-24 14:18:44</sys_created_on>
+            <sys_created_by>mmartone-Admin</sys_created_by>
+            <sys_created_on>2018-06-04 18:49:09</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>1309af094f1213009c7c8df07310c76c</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-31 20:40:11</sys_updated_on>
+            <sys_id>467051fcdbeed700461c6e25ca96198d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mmartone-Admin</sys_updated_by>
+            <sys_updated_on>2018-06-04 18:49:09</sys_updated_on>
             <value>Singapore</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -181,14 +172,13 @@
             <language>en</language>
             <name>x_81943_gift_givin_gift_giving_table</name>
             <sequence/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-24 14:18:53</sys_created_on>
+            <sys_created_by>mmartone-Admin</sys_created_by>
+            <sys_created_on>2018-06-04 18:49:22</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>0c2963494f1213009c7c8df07310c7db</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-31 20:39:29</sys_updated_on>
+            <sys_id>a580d5fcdbeed700461c6e25ca961955</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mmartone-Admin</sys_updated_by>
+            <sys_updated_on>2018-06-04 18:49:22</sys_updated_on>
             <value>Taiwan</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -200,31 +190,32 @@
             <language>en</language>
             <name>x_81943_gift_givin_gift_giving_table</name>
             <sequence/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-24 14:16:38</sys_created_on>
+            <sys_created_by>mmartone-Admin</sys_created_by>
+            <sys_created_on>2018-06-04 18:46:17</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>f7982f094f1213009c7c8df07310c777</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-31 20:39:25</sys_updated_on>
+            <sys_id>90dfc1fcdbeed700461c6e25ca961935</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mmartone-Admin</sys_updated_by>
+            <sys_updated_on>2018-06-04 18:46:17</sys_updated_on>
             <value>USA</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>requested_for_region</element>
             <name>x_81943_gift_givin_gift_giving_table</name>
             <sys_class_name>sys_choice_set</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-24 14:16:38</sys_created_on>
-            <sys_id>c62c8d3c4f2213009c7c8df07310c75d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_created_by>mmartone-Admin</sys_created_by>
+            <sys_created_on>2018-06-04 18:46:17</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>62df8dbcdbeed700461c6e25ca96198f</sys_id>
+            <sys_mod_count>11</sys_mod_count>
             <sys_name>requested_for_region</sys_name>
             <sys_package display_value="Gift Giving" source="x_81943_gift_givin">4cd8aa304f1213009c7c8df07310c751</sys_package>
             <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Gift Giving">4cd8aa304f1213009c7c8df07310c751</sys_scope>
             <sys_update_name>sys_choice_x_81943_gift_givin_gift_giving_table_requested_for_region</sys_update_name>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-24 14:16:38</sys_updated_on>
+            <sys_updated_by>mmartone-Admin</sys_updated_by>
+            <sys_updated_on>2018-06-04 18:49:31</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>
