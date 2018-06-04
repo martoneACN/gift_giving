@@ -6,6 +6,25 @@
             <element>requested_for_region</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_81943_gift_givin_gift_giving_table</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-24 14:19:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a229e3494f1213009c7c8df07310c7c8</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-04 18:21:30</sys_updated_on>
+            <value>99</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>requested_for_region</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>China</label>
             <language>en</language>
             <name>x_81943_gift_givin_gift_giving_table</name>
@@ -139,25 +158,6 @@
             <element>requested_for_region</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Other</label>
-            <language>en</language>
-            <name>x_81943_gift_givin_gift_giving_table</name>
-            <sequence/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-24 14:19:02</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>a229e3494f1213009c7c8df07310c7c8</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-31 20:40:17</sys_updated_on>
-            <value>Other</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>requested_for_region</element>
-            <hint/>
-            <inactive>false</inactive>
             <label>Singapore</label>
             <language>en</language>
             <name>x_81943_gift_givin_gift_giving_table</name>
@@ -216,7 +216,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-05-24 14:16:38</sys_created_on>
-            <sys_id>38400d674f1e13009c7c8df07310c702</sys_id>
+            <sys_id>d39a45784f2213009c7c8df07310c7b6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>requested_for_region</sys_name>
             <sys_package display_value="Gift Giving" source="x_81943_gift_givin">4cd8aa304f1213009c7c8df07310c751</sys_package>

@@ -32,12 +32,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-31 20:53:39</sys_created_on>
         <sys_id>dda6c92b4f1e13009c7c8df07310c7dd</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-31 21:03:36</sys_updated_on>
+        <sys_updated_on>2018-06-04 18:24:11</sys_updated_on>
         <table>x_81943_gift_givin_gift_giving_table</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="Gift Giving">caee24614f1213009c7c8df07310c792</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">
